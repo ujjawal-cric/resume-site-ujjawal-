@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ujjawal Sharma | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Ujjawal Sharma</div>
+    <ul class="nav-links">
+      <div class="hamburger">
+  <i class="fas fa-bars"></i>
+</div>
+
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="Ujjawal Sharma (Resume).docx" download class="resume-btn">Download Resume</a></li>
+      
+
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="about">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Ujjawal Sharma</span></h1>
+      <p>Full Stack Developer | B.Tech Student | Problem Solver</p>
+      <a href="#contact" class="cta-btn">Hire Me</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a 3rd-year B.Tech student specializing in Electronics and Computer Engineering at J.C. Bose University, YMCA Faridabad. I’m passionate about full-stack development and solving real-world problems using modern web technologies. I thrive in dynamic environments and love collaborating on creative solutions.</p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>B.Tech in Electronics and Computer Engineering</h3>
+        <p>J.C. Bose University, YMCA Faridabad</p>
+        <p>2022 - 2026 (Currently in 3rd Year)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Major Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Chat App</h3>
+          <p>Real-time messaging using Node.js, Socket.io & Express.</p>
+        </div>
+        <div class="card">
+          <h3>College Event Management Site</h3>
+          <p>A comprehensive web platform to organize, schedule, and manage college events seamlessly with interactive registration.</p>
+        </div>
+        <div class="card">
+          <h3>Fitness Tracker</h3>
+          <p>Fitness app with Express.js, MongoDB backend.</p>
+        </div>
+        <div class="card">
+          <h3>Blogging Platform</h3>
+          <p>CRUD-enabled blog website using Node.js.</p>
+        </div>
+      </div>
+
+      <h3>Minor Projects</h3>
+      <ul class="minor-projects">
+        <li>Recipe App</li>
+        <li>Dictionary App</li>
+        <li>Tic Tac Toe Game</li>
+        <li>Stone Paper Scissors Game</li>
+        <li>URL Shortener</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Subject Matter Expert - Chegg</h3>
+        <p>Remote | Sep 2023 - Oct 2023</p>
+        <ul>
+          <li>Answered academic queries with precision and detail.</li>
+          <li>Provided structured and informative explanations.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Subject Matter Expert - Brainly</h3>
+        <p>Remote | Jun 2023 - Dec 2023</p>
+        <ul>
+          <li>Created and reviewed academic content.</li>
+          <li>Maintained high standards of accuracy and clarity.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>C++</span>
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>REST APIs</span>
+        <span>MS Word</span>
+        <span>MS Excel</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>📍 Faridabad, Haryana<br>📞 9599128345<br>📧 <a href="mailto:ujjawal.root@gmail.com">ujjawal.root@gmail.com</a></p>
+      <a href="Ujjawal Sharma (Resume).docx" class="resume-btn" download>Download My Resume</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+     <p> 2025 Ujjawal Sharma. All rights reserved.</p>
+ 
+  </footer>
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
